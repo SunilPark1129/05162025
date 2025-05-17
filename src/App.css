@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  padding: 1rem;
+  margin: auto;
+}
+
+main > div {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.container {
+  border: 1px solid #666666;
+  padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+button {
+  padding: 0.5rem 1.2rem;
+}
+
+.models {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.models > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.input {
+  width: 4rem;
+  height: 1.6rem;
+  margin: auto 0;
+}
